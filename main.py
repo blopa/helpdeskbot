@@ -194,6 +194,6 @@ dispatcher.add_handler(support_msg_handler)
 # updater.stop()
 
 if __name__ == '__main__':
-	while True:
-		updater.start_polling()
-		time.sleep(1)
+    updater.start_polling()
+    while True:
+        time.sleep(1)
