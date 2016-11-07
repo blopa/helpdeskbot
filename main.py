@@ -192,3 +192,6 @@ dispatcher.add_handler(support_msg_handler)
 # updater.start_polling()
 # to stop it:
 # updater.stop()
+
+if __name__ == '__main__':
+    updater.start_polling()
